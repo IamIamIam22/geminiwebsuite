@@ -1,0 +1,1 @@
+CREATE TABLE users (id UUID PRIMARY KEY, email TEXT); CREATE TABLE tasks (id UUID PRIMARY KEY, app_source TEXT, content JSONB, status TEXT); CREATE TABLE prompt_templates (id UUID PRIMARY KEY, prompt_data TEXT);

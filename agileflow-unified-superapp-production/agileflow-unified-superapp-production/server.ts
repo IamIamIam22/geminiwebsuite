@@ -1,0 +1,1 @@
+const express = require('express'); const app = express(); app.use(express.json()); app.post('/sync', (req, res) => { /* Sync logic */ }); app.listen(8080);

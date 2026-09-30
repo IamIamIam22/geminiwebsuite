@@ -1,0 +1,1 @@
+package com.gemini.fusedapp; import android.os.Bundle; import androidx.activity.ComponentActivity; import androidx.compose.material3.*; class MainActivity : ComponentActivity() { override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState); setContent { MaterialTheme(colorScheme = darkColorScheme()) { Surface { Text('Unified AgileFlow Mobile') } } } } }
